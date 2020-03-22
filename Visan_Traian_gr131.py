@@ -87,7 +87,7 @@ def radixSortb4(v):
         p *= 4
     return v
 def test():
-    f=open("date.out")
+    f=open("date.in")
     oka=okb=okc=okd=oke=okf=1
     for i in f.readlines():
         l=[]
